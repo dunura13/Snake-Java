@@ -28,8 +28,6 @@ public class GamePanel extends JPanel implements ActionListener {
     Random random;
 
     
-
-    // Constructor
     GamePanel(){
         random = new Random();
         this.setPreferredSize(new Dimension(SCREEN_WIDTH,SCREEN_HEIGHT));
@@ -89,7 +87,7 @@ public class GamePanel extends JPanel implements ActionListener {
 
 
 
-    @Override // indicates the child class is overriding the parent class method
+    @Override
     public void actionPerformed(ActionEvent e){
 
 
